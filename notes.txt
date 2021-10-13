@@ -1,0 +1,5 @@
+1) create "<us-gaap:NetIncomeLoss " string (including the space at the end) and compare string
+2) fread 23 bytes into compare string
+3) compare with reference string
+    3a) if no match, skip to next line
+    3b) if match, skip until after ">" char is found, read in and print the next 9 bytes
